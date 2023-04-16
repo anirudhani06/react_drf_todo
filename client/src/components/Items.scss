@@ -1,0 +1,33 @@
+@use '../scss/style' as *;
+
+.Items {
+  list-style: none;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: rem(12) 0;
+  border-radius: rem(4);
+  &:not(:last-child) {
+    margin-bottom: rem(12);
+  }
+  input {
+    width: rem(18);
+    height: rem(18);
+    cursor: pointer;
+  }
+  span {
+    color: #fff;
+    cursor: pointer;
+  }
+  button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    svg {
+      width: rem(18);
+      height: rem(18);
+    }
+  }
+}

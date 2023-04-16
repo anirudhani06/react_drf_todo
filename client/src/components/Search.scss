@@ -1,0 +1,30 @@
+@use '../scss/style' as *;
+
+.Search {
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 0 10px #a23e3e15;
+    border-radius: rem(4);
+    overflow: hidden;
+    input {
+      width: 100%;
+      padding: rem(12);
+      border: none;
+      outline: transparent;
+      background: transparent;
+    }
+    select {
+      background: #000;
+      border: none;
+      outline: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: rem(12);
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}

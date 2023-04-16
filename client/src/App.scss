@@ -1,0 +1,17 @@
+@use './scss/style' as *;
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  .Todo {
+    width: rem(500);
+    height: rem(600);
+    box-shadow: 0 0 rem(10) #0000002e;
+    border-radius: rem(4);
+    padding: 0 rem(18);
+    position: relative;
+  }
+}

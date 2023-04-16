@@ -1,0 +1,34 @@
+@use '../scss/style' as *;
+
+.AddTodo {
+  padding: rem(12) 0;
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 0 10px #a23e3e15;
+    border-radius: rem(4);
+    input {
+      width: 100%;
+      padding: rem(12);
+      border: none;
+      outline: transparent;
+      background: transparent;
+    }
+    button {
+      background: transparent;
+      border: none;
+      outline: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: rem(12);
+      cursor: pointer;
+      svg {
+        width: rem(20);
+        height: rem(20);
+        fill: $Orange;
+      }
+    }
+  }
+}

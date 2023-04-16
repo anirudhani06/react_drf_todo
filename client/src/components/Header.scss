@@ -1,0 +1,9 @@
+@use '../scss/style' as *;
+
+.Header {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  h2 {
+    font-size: rem(22);
+  }
+}

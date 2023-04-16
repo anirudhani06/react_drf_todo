@@ -1,0 +1,22 @@
+@use '../scss/style' as *;
+
+.Details {
+  padding: rem(12) 0;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      &:nth-child(2) {
+        color: green;
+      }
+
+      &:last-child {
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}

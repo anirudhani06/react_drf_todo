@@ -1,0 +1,20 @@
+@use '../utils' as *;
+@use '../abstract' as *;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, $Orange, $Orange2);
+  font-family: sans-serif;
+}

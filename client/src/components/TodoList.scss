@@ -1,0 +1,13 @@
+@use '../scss/style' as *;
+.TodoList {
+  height: rem(360);
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
